@@ -30,16 +30,17 @@
       background-image: url(../img/icono_youtube.svg);
     }
     &[href*="tiktok.com"]::before {
-        background-image: url(../img/icono_tiktok.svg);
-      }
+      background-image: url(../img/icono_tiktok.svg);
+    }
   }
 
+  //   text hidden
   &__accesible {
     width: 1px;
     height: 1px;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     border: 0;
     display: block;
   }
